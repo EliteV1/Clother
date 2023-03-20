@@ -3,6 +3,21 @@ body{
 }
 
 #logo_app{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+}
+
+.botonave{
+    background: #DAC3B6;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+.seleccionado{
+    background: #d69e7d;
+    color: #DAC3B6;
+}
+
+a{
+    margin: 20px;
 }
