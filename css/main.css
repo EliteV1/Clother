@@ -364,3 +364,27 @@ position: relative;
     width: 30px;
     height: 30px;
 }
+#atras_boton{
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    height: 70px;
+    width: 70px;
+}
+.botonave_nombre{
+    background: #DAC3B6;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #d69e7d;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+#boton_tamaño_nombre{
+    position: absolute;
+    left: 60px;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+}
