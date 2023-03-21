@@ -30,6 +30,12 @@ body{
    
     left: 220px;
 }
+#imput_box_registro{
+    margin: 0 auto;
+    position: absolute;
+   
+    left: 200px;
+}
 #cbox1{
     position: absolute;
     left: 80px;
@@ -144,3 +150,48 @@ a{
     .div7 { grid-area: 6 / 1 / 7 / 2; }
     .div8 { grid-area: 6 / 2 / 7 / 3; }
     .div9 { grid-area: 7 / 1 / 8 / 2; }
+
+
+.parent_registro {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(7, 1fr);
+grid-column-gap: 7px;
+grid-row-gap: 11px;
+position: relative;
+}
+
+    .divr1 { grid-area: 2 / 1 / 3 / 2; }
+    .divr2 { grid-area: 3 / 1 / 4 / 2; }
+    .divr3 { grid-area: 4 / 1 / 5 / 2; }
+    .divr4 { grid-area: 5 / 1 / 6 / 2; }
+    .divr5 { grid-area: 6 / 1 / 7 / 2; }
+    .divr6 { grid-area: 7 / 1 / 8 / 2; }
+
+.divr1{
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+.divr2{
+    display: inline-block;
+    position: relative;
+}
+.divr3{
+    display: inline-block;
+    position: relative;
+}
+.divr4{
+    display: inline-block;
+    position: relative;
+}
+.divr5{
+    display: inline-block;
+    position: relative;
+}
+.divr6{
+    display: inline-block;
+    position: relative;
+}
