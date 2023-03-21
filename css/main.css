@@ -195,3 +195,172 @@ position: relative;
     display: inline-block;
     position: relative;
 }
+
+.parent_principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 7px;
+    grid-row-gap: 11px;
+    }
+    
+    .divp1 { grid-area: 1 / 1 / 2 / 2; }
+    .divp2 { grid-area: 1 / 2 / 2 / 3; }
+    .divp3 { grid-area: 2 / 1 / 3 / 2; }
+    .divp4 { grid-area: 3 / 1 / 4 / 2; }
+    .divp5 { grid-area: 3 / 2 / 4 / 3; }
+    .divp6 { grid-area: 4 / 1 / 5 / 2; }
+    .divp7 { grid-area: 4 / 2 / 5 / 3; }
+    .divp8 { grid-area: 5 / 1 / 6 / 2; }
+    .divp9 { grid-area: 5 / 2 / 6 / 3; }
+    .divp10 { grid-area: 6 / 1 / 7 / 2; }
+
+.divp1{
+position: relative;
+}
+.boton_circulo{
+   
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+    background: #d69e7d;
+}
+   
+#boton_atras{
+    position: absolute;
+    left: 80px;
+}
+#log_out{
+    position: absolute;
+    left: 25px;
+    top: 27px;
+    height: 30px;
+    width: 30px;
+}
+#admiracion{
+    position: absolute;
+    left: 235px;
+}
+#admiracion_img{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 30px;
+    width: 30px;
+}
+#logo_app_p{
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+  position: relative;
+  top: -45px;
+    left: 108px;
+}
+.divp4{
+    position: relative;
+}
+.divp5{
+    position: relative;
+}
+.divp6{
+    position: relative;
+}
+.divp7{
+    position: relative;
+}
+.divp8{
+    position: relative;
+}
+.divp9{
+    position: relative;
+}
+.divp10{
+    position: relative;
+}
+
+.icono_ropa{
+    position: absolute;
+    
+}
+#icono_camiseta{
+    left: 60px;
+    width: 75px;
+    height: 75px;
+}
+#icono_pantalones{
+    left: -215px;
+    width: 75px;
+    height: 75px;
+}
+#icono_accesorios{
+    left: 10px;
+    width: 175px;
+    height: 175px;
+}
+#icono_espejo{
+    left: -230px;
+    width: 100px;
+    height: 135px;
+}
+#icono_zapatos1{
+    top: 40px;
+    left: 60px;
+    width: 75px;
+    height: 75px;
+}
+#icono_zapatos2{
+    top: 40px;
+    left: -210px;
+    width: 75px;
+    height: 75px;
+}
+.botones_principales_nav{
+    background: #DAC3B6;
+    
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #d69e7d;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+#icono_search{
+    top: 3px;
+    left: 28px;
+    width: 20px;
+    height: 20px;
+}
+#boton_tamaño_1{
+    position: absolute;
+    left: 0px;
+    width: 60px;
+    height: 10px;
+}
+#boton_tamaño_2{
+    position: absolute;
+    top: 15px;
+    left: 110px;
+    width: 60px;
+    height: 10px;
+}#boton_tamaño_3{
+    position: absolute;
+    left: 220px;
+    width: 60px;
+    height: 10px;
+}
+#icono_plus{
+    top: -2px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+}
+#icono_percha{
+    top: -2px;
+    left: 25px;
+    width: 30px;
+    height: 30px;
+}
