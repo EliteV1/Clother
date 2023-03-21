@@ -22,7 +22,7 @@ body{
     margin: 0 auto;
     position: absolute;
    
-    left: -220px;
+    left: -820px;
 }
 #imput_box_c{
     margin: 0 auto;
@@ -292,7 +292,7 @@ position: relative;
     height: 75px;
 }
 #icono_pantalones{
-    left: -215px;
+    left: -700px;
     width: 75px;
     height: 75px;
 }
@@ -302,7 +302,7 @@ position: relative;
     height: 175px;
 }
 #icono_espejo{
-    left: -230px;
+    left: -700px;
     width: 100px;
     height: 135px;
 }
@@ -314,7 +314,7 @@ position: relative;
 }
 #icono_zapatos2{
     top: 40px;
-    left: -210px;
+    left: -700px;
     width: 75px;
     height: 75px;
 }
