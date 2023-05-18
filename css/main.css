@@ -113,7 +113,7 @@ body{
     height: 12px;
     text-align: center;
     text-decoration: none;
-    cursor: pointer;
+    
     display: inline-block;
   }
 .fa:hover {
@@ -121,7 +121,6 @@ body{
 }
 .fa-facebook {
     background: #3B5998;
-    cursor: pointer;
     color: white;
   }
 .fa-google {
@@ -229,13 +228,11 @@ position: relative;
     text-decoration: none;
     border-radius:50%;
     background: #d69e7d;
-    cursor: pointer;
 }
    
 #boton_atras{
     position: absolute;
     left: 80px;
-    cursor: pointer;
 }
 #log_out{
     position: absolute;
@@ -243,12 +240,10 @@ position: relative;
     top: 27px;
     height: 30px;
     width: 30px;
-    cursor: pointer;
 }
 #admiracion{
     position: absolute;
     left: 235px;
-    cursor: pointer;
 }
 #admiracion_img{
     position: absolute;
@@ -256,7 +251,6 @@ position: relative;
     top: 5px;
     height: 30px;
     width: 30px;
-    cursor: pointer;
 }
 #logo_app_p{
     width: 110px;
@@ -265,7 +259,6 @@ position: relative;
   position: relative;
   top: -45px;
     left: 108px;
-    
 }
 .divp4{
     position: relative;
@@ -291,65 +284,55 @@ position: relative;
 
 .icono_ropa{
     position: absolute;
-    cursor: pointer;
     
 }
 #icono_camiseta{
     left: 60px;
     width: 75px;
     height: 75px;
-    cursor: pointer;
 }
 #icono_pantalones{
     left: -700px;
     width: 75px;
     height: 75px;
-    cursor: pointer;
 }
 #icono_accesorios{
     left: 10px;
     width: 175px;
     height: 175px;
-    cursor: pointer;
 }
 #icono_espejo{
     left: -715px;
     width: 100px;
     height: 122px;
-    cursor: pointer;
 }
 #icono_zapatos1{
     top: 40px;
     left: 60px;
     width: 75px;
     height: 75px;
-    cursor: pointer;
-
 }
 #icono_zapatos2{
     top: 40px;
     left: -700px;
     width: 75px;
     height: 75px;
-    cursor: pointer;
 }
 .botones_principales_nav{
     background: #DAC3B6;
     
     text-decoration: none;
     padding: 8px;
-    border: 3px solid #d69e7d;
+    border: 1px solid #d69e7d;
     border-radius: 8px;
     cursor: pointer;
     display: inline-block;
-    cursor: pointer;
 }
 #icono_search{
     top: 3px;
     left: 28px;
     width: 20px;
     height: 20px;
-    cursor: pointer;
 }
 #boton_tamaño_1{
     position: absolute;
@@ -374,22 +357,19 @@ position: relative;
     left: 25px;
     width: 30px;
     height: 30px;
-    cursor: pointer;
 }
 #icono_percha{
     top: -2px;
     left: 25px;
     width: 30px;
     height: 30px;
-    cursor: pointer;
 }
 #atras_boton{
-    position:relative;
-    left: 7px; 
+    position: absolute;
+    left: 7px;
     top: 8px;
     height: 70px;
     width: 70px;
-    cursor: pointer;
 }
 .botonave_nombre{
     background: #DAC3B6;
@@ -402,9 +382,9 @@ position: relative;
     
 }
 #boton_tamaño_nombre{
-    position: relative;
+    position: absolute;
     left: 60px;
     width: 150px;
     height: 10px;
-    text-align: left;
+    text-align: center;
 }
